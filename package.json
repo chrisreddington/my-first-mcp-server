@@ -1,0 +1,50 @@
+{
+  "name": "rubber-ducking-adventure-mcp",
+  "version": "1.0.0",
+  "description": "A gamified rubber ducking MCP server that turns debugging into an epic fantasy adventure quest!",
+  "type": "module",
+  "bin": {
+    "rubber-ducking-adventure-mcp": "./build/index.js"
+  },
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js",
+    "start": "npm run build && node build/index.js",
+    "dev": "npm run build && node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisreddington/my-first-mcp-server.git"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "server",
+    "typescript",
+    "debugging",
+    "rubber-ducking",
+    "gamification",
+    "adventure"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisreddington/my-first-mcp-server/issues"
+  },
+  "homepage": "https://github.com/chrisreddington/my-first-mcp-server#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^20.19.9",
+    "jest": "^30.0.5",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.16.0",
+    "zod": "^3.25.76"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "rubber-ducking-adventure": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["/Users/chrisreddington/Documents/Code/my-first-mcp-server/build/index.js"]
+    }
+  }
+}
