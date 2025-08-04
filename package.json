@@ -40,8 +40,8 @@
     "@types/jest": "^30.0.0",
     "@types/node": "^20.19.9",
     "jest": "^30.0.5",
-    "ts-jest": "^29.4.0",
-    "typescript": "^5.8.3"
+    "ts-jest": "^29.4.1",
+    "typescript": "^5.9.2"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.16.0",
